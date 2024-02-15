@@ -9,17 +9,17 @@ $domain = $_SERVER['HTTP_HOST'];
 $path = '{path}';
 
 //version
-$version = '1.5';
+$version = '1.0';
 
 //check for installation file
-if(is_dir('install')) die('<a href="install/">Install RCS '. $version .'</a><br/><br/><a href="http://www.moparscape.org/smf/index.php/topic,564369.0.html" target="_blank">Support for RCS</a> or alternatively, <a href="http://www.rune-server.org/programming/website-development/442699-v1-4-free-rcs-runescape-community-script-old-runescape-website-remake.html" target="_blank">here</a>');
+if(is_dir('install')) die('<a href="install/">Install Argoury Suite '. $version .'</a><br/><br/><a href=" " target="_blank">Support for Argoury Suite</a> or alternatively, <a href=" " target="_blank">here</a>');
 
 //basic site configuration
 $data['wb_name'] = '{wb_name}';
 $data['wb_abbr'] = '{abbr}';
 $data['wb_title'] = '{title}';
-$data['wb_foot'] = 'This website and its contents are copyright &copy; 1999 - 2007 Jagex Ltd.<br/>
-Use of this website is subject to our Terms+Conditions and Privacy policy<br/>Powered by RuneScape Community Script (RCS)';
+$data['wb_foot'] = 'This website and its contents are copyright &copy; 1999 - 2011 Jagex Ltd.<br/>
+Use of this website is subject to our Terms+Conditions and Privacy policy<br/>Powered by Argoury Suite';
 $data['login_time'] = 50000; //SECONDS
 
 //if you change $data['use_recaptcha'] to true, you must specify a private and public keycode
